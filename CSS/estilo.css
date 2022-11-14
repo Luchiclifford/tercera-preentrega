@@ -1,0 +1,358 @@
+/* header */
+/* BARRA NAV */
+    /* ul {
+        list-style-type: none;
+      }
+      
+      li {
+        background-color: darkblue;
+        display: inline;
+        margin: 10px;
+        } */
+
+        .nav-item {color: white;
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            
+            
+        }
+
+        .nav-link {color: white;}
+
+        .navbar-brand {color: white;}
+
+        .container-fluid {background-color: #6e6c6c; margin-top: -10px; margin-bottom: -10px;}
+
+       
+
+        header {
+            background-color: darkblue;
+            text-align: center; 
+        margin-top: 0;
+    margin-bottom: 0;}
+        
+            
+            
+      
+
+    
+a { 
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-shadow: 2px 5px 7px rgb(0, 0, 0);
+    margin:5px;
+    font-size: 20px;}
+
+    /* TITULO */
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+text-align: center;
+background-color: gold;
+font-size: 40px;
+font-weight: bold;
+
+}
+
+/*INICIO*/
+/* body */
+.video {
+    margin: auto;
+    margin-top: 100px;
+}
+
+body {
+    background: linear-gradient(to right, #010a86,#eef10d,#010a86);
+    
+}
+
+body main {
+    background-color: rgb(255, 253, 157);
+    
+}
+
+
+
+main iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+/* NUEVO FORMULARIO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin-bottom: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    background-color: darkblue;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    color: gold;
+    box-shadow: 7px 13px 37px #000;
+    margin-bottom: 20px;
+    
+}
+
+.contenedor h4{
+    font-size: 24px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.control{
+    width: 100%;
+    background-color: #fffeb8;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid #1f53c5;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.botonForm{
+    width: 100%;
+    height: 45px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border:none;
+    color: white;
+    text-transform: uppercase;
+    background: linear-gradient(to left top, #005aa7,#fffde4);
+    font-size: 20px;
+}
+
+.botonForm:hover{
+    cursor:pointer;
+    transform: translateY(-3px);
+    transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+}
+
+.botonForm:active{
+    transform:translateY(3px);
+}
+
+.control:focus{
+    height: 60px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #6e6c6c;
+    text-align: center;
+    color: gold;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* otras paginas */
+
+/*-------------------- FUTBOL---------------------- */
+
+.imagenFutbol {width: 100%; height: auto;}
+
+h2 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+text-align: center;
+background-color: gold;}
+
+.nuevoparrafoFutbol {
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color: darkblue;
+    margin-top: 10px;
+    background-color: gold;
+}
+
+.liNav {
+   background-color: rgb(230, 207, 77);
+    color: #000;
+    display: block;
+    
+    
+}
+
+
+
+
+/* --------------------- BASQUET------------------*/
+
+.imagenBasquet {width: 100%; height: auto;}
+
+.nuevoparrafoImagenbasquet {
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:bold;
+    color: darkblue;
+    margin-top: 10px;
+    background-color: gold;
+}
+
+
+.nuevoCuadro {
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
+color: darkblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 15px;
+text-align: center;
+}
+
+.nuevoEstilosub {border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-align: center;
+font-weight: bold;
+font-size: 20px;}
+
+.nuevoCuadrodos {
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
+color: darkblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+text-align: center; }
+
+.nuevoCuadrodos:hover {
+    height: 435px;
+   background-image: url(https://bocajuniorspasionbis.files.wordpress.com/2009/12/rojo.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+   
+}
+
+
+
+.nuevoCuadrodosbasquet {
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
+color: darkblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+text-align: center; }
+
+.nuevoCuadrodosbasquet:hover {
+    height: 435px;
+   background-image: url(https://bocajuniorspasionbis.files.wordpress.com/2009/11/casla.png);
+   background-repeat: no-repeat;
+   background-position: bottom;
+
+   
+}
+
+/* PILETA */
+/*SLIDER IMAGENES*/
+.slider {width: 75%;
+margin: auto;
+overflow: hidden;}
+
+.slider ul {display: flex;
+    padding: 0;
+width: 400%; 
+animation: cambio 15s infinite alternate
+ }
+
+.slider li {width: 25%;
+    list-style: none;}
+
+.slider img {width: 100%;}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+    20%{margin-left: 0;}
+
+    25% {margin-left: -100%;}
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+    100% {margin-left: -300%;}
+}
+
+.textoPileta
+{text-align: center;
+text-transform: uppercase;
+font-weight: 30%;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: gold;
+background-color: darkblue;
+border: solid gold;}
+
+.horarioPileta
+{
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
+color: darkblue;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 25px;
+text-align: center;}
+
+/*Noticias*/
+
+.imagenNoticia {
+width: 550px;
+height: 350px;
+
+}
+.parrafoNoticia {
+
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 20px;
+ 
+color: rgb(3, 0, 0);
+} 
+
+.boton {text-decoration:none;
+    font-weight:1px;
+    font-size:25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:#ffffff;
+    background-color:#090dd3; 
+    border: 1px black solid;
+    border-radius: 4px;
+    
+    
+}
+
+.pruebaAlinear {
+text-align: center;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: rgb(3, 0, 0); 
+}
+
+
+
+
