@@ -1,0 +1,242 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    text-align: center;
+    background-color: gold;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  
+  .video {
+    margin: auto;
+    margin-top: 100px;
+  }
+  
+  body {
+    background: linear-gradient(to right, #010a86, #eef10d, #010a86);
+  
+    main {
+      background-color: rgb(255, 253, 157);
+    }
+  }
+  
+  main iframe {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 500px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    text-align: center;
+    font-size: 35px;
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  h3 {font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkblue;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(230, 207, 77);
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    }
+
+  .imagenFutbol {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .nuevoparrafoFutbol {
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 10px;
+    background-color: gold;
+  }
+  
+ 
+  .imagenBasquet {
+    width: 100%;
+    height: auto;
+  }
+  
+  .nuevoparrafoImagenbasquet {
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: darkblue;
+    margin-top: 10px;
+    background-color: gold;
+  }
+  
+  .nuevoCuadro {
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+  }
+  
+  
+  
+  .nuevoCuadrodos {
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+  
+    &:hover {
+      height: 435px;
+      background-image: url(https://bocajuniorspasionbis.files.wordpress.com/2009/12/rojo.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+  }
+  
+  .nuevoCuadrodosbasquet {
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+  
+    &:hover {
+      height: 435px;
+      background-image: url(https://bocajuniorspasionbis.files.wordpress.com/2009/11/casla.png);
+      background-repeat: no-repeat;
+      background-position: bottom;
+    }
+  }
+  
+  .slider {
+    width: 75%;
+    margin: auto;
+    overflow: hidden;
+  
+    ul {
+      display: flex;
+      padding: 0;
+      width: 400%;
+      animation: cambio 15s infinite alternate;
+    }
+  
+    li {
+      width: 25%;
+      list-style: none;
+    }
+  
+    img {
+      width: 100%;
+    }
+  }
+  
+  @keyframes cambio {
+    0% {
+      margin-left: 0;
+    }
+  
+    20% {
+      margin-left: 0;
+    }
+  
+    25% {
+      margin-left: -100%;
+    }
+  
+    45% {
+      margin-left: -100%;
+    }
+  
+    50% {
+      margin-left: -200%;
+    }
+  
+    70% {
+      margin-left: -200%;
+    }
+  
+    75% {
+      margin-left: -300%;
+    }
+  
+    100% {
+      margin-left: -300%;
+    }
+  }
+  
+  .textoPileta {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 30%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gold;
+    background-color: darkblue;
+    border: solid gold;
+  }
+  
+  .horarioPileta {
+    border: 3px solid black;
+    border-radius: 4px;
+    background-color: rgb(230, 207, 77);
+    font-weight: bold;
+    color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+  }
+  
+  .imagenNoticia {
+    width: 550px;
+    height: 350px;
+  }
+  
+  .parrafoNoticia {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: rgb(3, 0, 0);
+  }
+  
+  .boton {
+    text-decoration: none;
+    font-weight: 1px;
+    font-size: 25px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ffffff;
+    background-color: #090dd3;
+    border: 1px black solid;
+    border-radius: 4px;
+  }
+  
+  .pruebaAlinear {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(3, 0, 0);
+  }
