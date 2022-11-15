@@ -93,29 +93,9 @@ h3 {
   height: auto;
 }
 
-.nuevoparrafoFutbol {
-  text-align: center;
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  color: darkblue;
-  margin-top: 10px;
-  background-color: gold;
-}
-
 .imagenBasquet {
   width: 100%;
   height: auto;
-}
-
-.nuevoparrafoImagenbasquet {
-  text-align: center;
-  font-size: 15px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-  color: darkblue;
-  margin-top: 10px;
-  background-color: gold;
 }
 
 .nuevoCuadro {
@@ -234,12 +214,6 @@ h3 {
   height: 350px;
 }
 
-.parrafoNoticia {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 20px;
-  color: rgb(3, 0, 0);
-}
-
 .boton {
   text-decoration: none;
   font-weight: 1px;
@@ -325,6 +299,29 @@ footer {
   color: gold;
   font-size: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.parrafo {
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  margin-top: 10px;
+  background-color: Gold;
+}
+
+.parrafoNoticia {
+  text-align: center;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  color: darkblue;
+  margin-top: 10px;
+  background-color: Gold;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
 }
 
 /*# sourceMappingURL=estilo.css.map */
